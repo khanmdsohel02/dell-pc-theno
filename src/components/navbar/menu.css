@@ -1,0 +1,30 @@
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color:azure;
+}
+.logo img{
+    width: 200px;
+    height: 65px;
+}
+.menu-items{
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+ margin-right: 25px;
+ padding: 8px;
+ text-decoration: none;
+ font-weight: 700;
+}
+.link:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    transition: 1s ease;
+}

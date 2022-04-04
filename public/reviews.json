@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "img" :"https://randomuser.me/api/portraits/men/75.jpg",
+        "user": "JonathanMcdonalid",
+        "comment": "The Dell OptiPlex 3090 Small Form Factor is a capable little PC with modest expansion capabilities, intended for offices where space is tight. It's long on both warranty and configuration options.",
+        "ratting": 5,
+        "date": "August 14, 2019"
+    },
+    {
+        "id": 2,
+       "img" :"https://randomuser.me/api/portraits/men/44.jpg",
+        "user": "BraydenLong",
+        "comment": "With its enterprise-class features, Dell's titanic Precision 5820 tower blurs the line between workstations and servers. It's an excellent performer that can be configured for almost any budget and workflow.",
+        "ratting": 4.5,
+        "date": "August 20, 2019"
+    },
+    {
+        "id": 3,
+      "img" :"https://randomuser.me/api/portraits/men/19.jpg",
+        "user": "KurtStanley",
+        "comment": "The Dell OptiPlex 5090 Tower is a reasonably priced business desktop PC with a vPro-equipped Core i5 and lots of room to add or replace internal components, at time of purchase or later on.",
+        "ratting": 5,
+        "date": "August 25, 2019"
+    },
+    {
+        "id": 4,
+       "img" :"https://randomuser.me/api/portraits/men/70.jpg",
+        "user": "BillMartinez",
+        "comment": "Dell's compact Inspiron Desktop 3891 offers a peppy Core i3 processor, Wi-Fi 6, and a DVD burner for a rock-bottom price.",
+        "ratting": 4.7,
+        "date": "August 14, 2019"
+    },
+    {
+        "id": 5,
+      "img" :"https://randomuser.me/api/portraits/men/3.jpg",
+        "user": "JeremyCaldwell",
+        "comment": "Dell's Inspiron 24 5000 AIO is a solidly built budget all-in-one, but we are lukewarm on this specific model in the line, with its bipod stand and slow hard drive.",
+        "ratting": 4.9,
+        "date": "August 27, 2019"
+    },
+    {
+        "id": 6,
+      "img" :"https://randomuser.me/api/portraits/men/74.jpg",
+        "user": "BraydenGarza",
+        "comment": "With a surprising amount of CPU, GPU, and storage options for a mini PC, Dell's OptiPlex 7080 Micro offers a configuration for almost any office need and budget, but this might be a case where less is more.",
+        "ratting": 5,
+        "date": "August 29, 2019"
+    },
+    {
+        "id": 7,
+      "img" :"https://randomuser.me/api/portraits/men/41.jpg",
+        "user": "DarrenClark",
+        "comment": "With its enterprise-class features, Dell's titanic Precision 5820 tower blurs the line between workstations and servers. It's an excellent performer that can be configured for almost any budget and workflow.",
+        "ratting": 5,
+        "date": "August 30, 2019"
+    },
+    {
+        "id": 8,
+      "img" :"https://randomuser.me/api/portraits/men/80.jpg",
+        "user": "MelvinPowell",
+        "comment": "The Dell Optiplex 5050 Micro is a strong performer that fits almost anywhere, making it an excellent choice for large companies deploying an army of tiny desktop PCs.",
+        "ratting": 5,
+        "date": "August 31, 2019"
+    },
+    {
+        "id": 9,
+      "img" :"https://randomuser.me/api/portraits/men/79.jpg",
+        "user": "HowardStanley",
+        "comment": "The Dell Optiplex 3040 Small Form Factor business desktop has a sixth-generation Intel Core i5 processor and some room for external expansion. It's a fine choice for a growing SMB or home office.",
+        "ratting": 4.5,
+        "date": "August 27, 2019"
+    }
+]

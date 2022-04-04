@@ -1,0 +1,74 @@
+.header-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 45px;
+}
+.intro{
+    width: 55%;
+    margin-right: 35px;
+}
+.intro h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.intro span{
+    color: blueviolet;
+}
+.intro p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform:capitalize;
+    text-align:justify;
+}
+.intro button{
+    padding: 10px 25px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+.intro button:hover{
+    background-color: rgb(147, 76, 213);
+    color: black;
+}
+.bg-img{
+        background-color: blueviolet;
+        padding: 30px;
+        border-radius: 50%;
+}
+.bg-img img{
+    width: 420px;
+      padding: 40px;
+}
+.review-section{
+    margin-top: 50px;
+     margin-left: 7%;
+    margin-right: 7%;
+  
+}
+ .title h1{
+    text-align: center;
+    border-bottom: 2px solid blueviolet ;
+    padding-bottom: 10px;
+}
+.review-section .client-reviews{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+}
+p{
+    text-align: center;
+}
+p button{
+    padding: 10px 25px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
