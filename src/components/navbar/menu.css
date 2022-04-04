@@ -7,6 +7,8 @@
     padding-left: 7%;
     padding-right: 7%;
     background-color:azure;
+    position: sticky;
+    top: 0;
 }
 .logo img{
     width: 200px;

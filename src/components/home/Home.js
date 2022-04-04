@@ -4,9 +4,13 @@ import bg1 from "../../img/bg1.png"
 import {
     Link
 } from 'react-router-dom';
+import CustomerReviews from '../../Hooks/CustomerReviews';
+import Review from '../Review/Review';
 
 
 const Home = () => {
+    const [reviews, setReviews] = CustomerReviews();
+    
     return (
   < div >
     <div className='header-section'>
@@ -23,18 +27,23 @@ const Home = () => {
         </div>
     </div>
      <div className="review-section">
-        < div className='title' > < h1 > Customer Reviews </h1></ div>
+       < h1 className = 'title' > Customer Reviews </h1>
         < div className = "client-reviews">
-
-        </div>
-                 
-     </div>
+      {
+           reviews.map(review => < Review
+                            key={review.id}
+                      review={review}>
+                      </Review>)
+      }  
+                    
+        </div> 
             < p >
                 <button>
-                    < Link className = 'text-decoration-none text-white hover-color-black'
+                    < Link className = 'text-decoration-none text-white'
                     to = "/reviews" > See More Reviews </Link>
                 </button>
            </p>
+    </div>
  </div>
     
     );

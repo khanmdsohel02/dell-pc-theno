@@ -38,28 +38,31 @@
     color: black;
 }
 .bg-img{
-        background-color: blueviolet;
+        background-color:azure;
         padding: 30px;
         border-radius: 50%;
 }
 .bg-img img{
-    width: 420px;
+    width: 430px;
       padding: 40px;
 }
 .review-section{
-    margin-top: 50px;
+    margin-top: 70px;
+    margin-bottom: 40px;
      margin-left: 7%;
     margin-right: 7%;
-  
 }
- .title h1{
+ .title{
     text-align: center;
     border-bottom: 2px solid blueviolet ;
     padding-bottom: 10px;
 }
-.review-section .client-reviews{
+ .client-reviews{
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 p{
     text-align: center;
