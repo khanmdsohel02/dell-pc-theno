@@ -4,7 +4,7 @@
 
 ## What has been done in the project 
 
---  This project is mainly aimed at react-router
+-  This project is mainly aimed at react-router
 
 - Navbar has been created using routing, menu items on one side of navbar and logo on the other side.
 
