@@ -7,10 +7,9 @@ import {
 import CustomerReviews from '../../Hooks/CustomerReviews';
 import Review from '../Review/Review';
 
-
 const Home = () => {
-    const [reviews, setReviews] = CustomerReviews();
-    
+  const [reviews, setReviews] = CustomerReviews();
+
     return (
   < div >
     <div className='header-section'>
@@ -30,13 +29,12 @@ const Home = () => {
        < h1 className = 'title' > Customer Reviews </h1>
         < div className = "client-reviews">
       {
-           reviews.map(review => < Review
+              reviews.map(review => <Review  
                             key={review.id}
                       review={review}>
                       </Review>)
-      }  
-                    
-        </div> 
+     }           
+      </div> 
             < p >
                 <button>
                     < Link className = 'text-decoration-none text-white'

@@ -1,7 +1,7 @@
 .header-section{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
      margin-left: 7%;
     margin-right: 7%;
     margin-top: 45px;
@@ -74,4 +74,24 @@ p button{
     font-size: 20px;
     background-color: blueviolet;
     border-radius: 10px;
+}
+
+/* Responsiveness */
+
+@media  ( max-width: 800px) {
+.header-section{
+    flex-direction: column;
+  }
+.intro{
+    margin-bottom: 45px;
+    width: 100%;
+}
+.client-reviews{
+    grid-template-columns: repeat(2, 1fr);
+}
+}
+@media  ( max-width: 560px){
+.client-reviews{
+    grid-template-columns: 1fr;
+}
 }
