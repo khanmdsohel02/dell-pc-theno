@@ -7,7 +7,7 @@ const CustomerReviews = () => {
         fetch('reviews.json')
             .then(res => res.json())
             .then(data => setReviews(data));
-        console.log(reviews);
+        // console.log(reviews);
     }, []);
     return [reviews, setReviews];
 };

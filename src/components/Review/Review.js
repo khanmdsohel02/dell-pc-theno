@@ -4,6 +4,7 @@ import './review.css'
 const Review = ({ review }) => {
     const {user, img, comment, ratting, date, id} = review
     return (
+       
         <div className='single-review'>
             <img src={img} alt="" />
             < p className = 'user' > < strong > User : </strong>{user}</p >

@@ -1,0 +1,17 @@
+.charts{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 45px;
+    
+  
+}
+.chart{
+    width: 800px;
+    height: 450px;
+      background-color: antiquewhite;
+    border-radius: 15px;
+    margin: 45px;
+    padding: 30px;
+}
